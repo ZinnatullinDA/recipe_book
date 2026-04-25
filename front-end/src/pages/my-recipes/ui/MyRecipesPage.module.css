@@ -1,0 +1,22 @@
+.stack {
+  display: grid;
+  gap: 24px;
+}
+
+.addButton {
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: var(--bg-accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.cards {
+  display: grid;
+  gap: 18px;
+}
+
+.cardItem {
+  display: grid;
+  gap: 12px;
+}

@@ -1,0 +1,35 @@
+.form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px auto;
+  gap: 14px;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 15px 18px;
+  border: 1px solid var(--bg-border);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  font: inherit;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.button {
+  padding: 15px 22px;
+  border: 0;
+  border-radius: 16px;
+  background: var(--bg-accent);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}

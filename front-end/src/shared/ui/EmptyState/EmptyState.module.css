@@ -1,0 +1,17 @@
+.empty {
+  padding: 32px;
+  border: 1px dashed rgba(118, 101, 85, 0.28);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.72);
+  text-align: center;
+}
+
+.empty h3,
+.empty p {
+  margin: 0;
+}
+
+.empty p {
+  margin-top: 10px;
+  color: var(--text-secondary);
+}

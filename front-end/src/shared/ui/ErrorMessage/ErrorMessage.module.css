@@ -1,0 +1,16 @@
+.error {
+  padding: 22px 24px;
+  border: 1px solid rgba(211, 74, 50, 0.18);
+  border-radius: var(--radius-md);
+  background: rgba(211, 74, 50, 0.08);
+  color: #8d2f20;
+}
+
+.error strong,
+.error p {
+  margin: 0;
+}
+
+.error p {
+  margin-top: 8px;
+}

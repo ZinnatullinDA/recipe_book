@@ -1,0 +1,8 @@
+.stack {
+  display: grid;
+  gap: 22px;
+}
+
+.cardWrap {
+  max-width: 420px;
+}

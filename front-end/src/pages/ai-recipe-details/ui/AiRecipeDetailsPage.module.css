@@ -1,0 +1,15 @@
+.action {
+  border: none;
+  border-radius: 16px;
+  background: #15803d;
+  color: #fff;
+  padding: 12px 18px;
+  font: inherit;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.action:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}

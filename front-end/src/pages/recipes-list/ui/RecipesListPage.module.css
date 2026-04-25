@@ -1,0 +1,14 @@
+.stack {
+  display: grid;
+  gap: 22px;
+}
+
+.sentinel {
+  height: 1px;
+}
+
+.end {
+  margin: 0;
+  text-align: center;
+  color: var(--text-secondary, #6b7280);
+}

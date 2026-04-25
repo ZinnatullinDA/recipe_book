@@ -1,0 +1,10 @@
+.action {
+  border: none;
+  border-radius: 16px;
+  background: #1d4ed8;
+  color: #fff;
+  padding: 12px 18px;
+  font: inherit;
+  cursor: pointer;
+  width: fit-content;
+}
