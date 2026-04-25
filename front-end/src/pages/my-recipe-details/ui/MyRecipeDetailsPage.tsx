@@ -5,8 +5,7 @@ import { mapMyRecipeToRecipeDetails, myRecipeApi, useMyRecipeStore } from '@/ent
 import { RecipeDetails } from '@/entities/recipe'
 import { DeleteRecipeButton } from '@/features/delete-my-recipe'
 import { ROUTES } from '@/shared/constants/routes'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import styles from './MyRecipeDetailsPage.module.css'
 
 export function MyRecipeDetailsPage() {
@@ -57,11 +56,11 @@ export function MyRecipeDetailsPage() {
   }
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Мои рецепты' }, { label: recipe?.title ?? 'Детали' }]}
-      description="Полная информация о пользовательском рецепте с возможностью отредактировать или удалить его."
-      title={recipe?.title ?? 'Мой рецепт'}
-    >
+    <>
+      <PageIntro
+        description="Полная информация о пользовательском рецепте с возможностью отредактировать или удалить его."
+        title={recipe?.title ?? 'Мой рецепт'}
+      />
       {isLoading && <Loader />}
       {!isLoading && error && <ErrorMessage message={error} />}
       {!isLoading && !error && !recipe && (
@@ -88,6 +87,6 @@ export function MyRecipeDetailsPage() {
           recipe={mapMyRecipeToRecipeDetails(recipe)}
         />
       )}
-    </PageLayout>
+    </>
   )
 }

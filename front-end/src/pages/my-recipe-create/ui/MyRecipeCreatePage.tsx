@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useMyRecipeStore } from '@/entities/my-recipe'
 import { MyRecipeForm } from '@/features/my-recipe-form'
 import { ROUTES } from '@/shared/constants/routes'
-import { PageLayout } from '@/widgets/page-layout'
+import { PageIntro } from '@/shared/ui'
 
 export function MyRecipeCreatePage() {
   const navigate = useNavigate()
@@ -17,15 +17,15 @@ export function MyRecipeCreatePage() {
   }
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Мои рецепты' }, { label: 'Создание' }]}
-      description="Форма для создания собственного рецепта пользователя."
-      title="Создать свой рецепт"
-    >
+    <>
+      <PageIntro
+        description="Форма для создания собственного рецепта пользователя."
+        title="Создать свой рецепт"
+      />
       <MyRecipeForm
         onSubmit={handleSubmit}
         submitLabel="Сохранить рецепт"
       />
-    </PageLayout>
+    </>
   )
 }

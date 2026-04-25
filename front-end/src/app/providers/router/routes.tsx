@@ -12,58 +12,61 @@ import { RandomRecipePage } from '@/pages/random-recipe'
 import { RecipeDetailsPage } from '@/pages/recipe-details'
 import { RecipesListPage } from '@/pages/recipes-list'
 import { ROUTES } from '@/shared/constants/routes'
+import { PageLayout } from '@/widgets/page-layout'
 
 export function AppRoutes() {
   return (
     <Routes>
-      <Route
-        element={<HomePage />}
-        path={ROUTES.home}
-      />
-      <Route
-        element={<RecipesListPage />}
-        path={ROUTES.recipes}
-      />
-      <Route
-        element={<RecipeDetailsPage />}
-        path={ROUTES.recipeDetails}
-      />
-      <Route
-        element={<RandomRecipePage />}
-        path={ROUTES.randomRecipe}
-      />
-      <Route
-        element={<MyRecipesPage />}
-        path={ROUTES.myRecipes}
-      />
-      <Route
-        element={<MyRecipeCreatePage />}
-        path={ROUTES.myRecipeCreate}
-      />
-      <Route
-        element={<MyRecipeEditPage />}
-        path={ROUTES.myRecipeEdit}
-      />
-      <Route
-        element={<MyRecipeDetailsPage />}
-        path={ROUTES.myRecipeDetails}
-      />
-      <Route
-        element={<FavoritesPage />}
-        path={ROUTES.favorites}
-      />
-      <Route
-        element={<FavoriteRecipeDetailsPage />}
-        path={ROUTES.favoriteRecipeDetails}
-      />
-      <Route
-        element={<AiRecipesPage />}
-        path={ROUTES.aiRecipes}
-      />
-      <Route
-        element={<AiRecipeDetailsPage />}
-        path={ROUTES.aiRecipeDetails}
-      />
+      <Route element={<PageLayout />}>
+        <Route
+          element={<HomePage />}
+          path={ROUTES.home}
+        />
+        <Route
+          element={<RecipesListPage />}
+          path={ROUTES.recipes}
+        />
+        <Route
+          element={<RecipeDetailsPage />}
+          path={ROUTES.recipeDetails}
+        />
+        <Route
+          element={<RandomRecipePage />}
+          path={ROUTES.randomRecipe}
+        />
+        <Route
+          element={<MyRecipesPage />}
+          path={ROUTES.myRecipes}
+        />
+        <Route
+          element={<MyRecipeCreatePage />}
+          path={ROUTES.myRecipeCreate}
+        />
+        <Route
+          element={<MyRecipeEditPage />}
+          path={ROUTES.myRecipeEdit}
+        />
+        <Route
+          element={<MyRecipeDetailsPage />}
+          path={ROUTES.myRecipeDetails}
+        />
+        <Route
+          element={<FavoritesPage />}
+          path={ROUTES.favorites}
+        />
+        <Route
+          element={<FavoriteRecipeDetailsPage />}
+          path={ROUTES.favoriteRecipeDetails}
+        />
+        <Route
+          element={<AiRecipesPage />}
+          path={ROUTES.aiRecipes}
+        />
+        <Route
+          element={<AiRecipeDetailsPage />}
+          path={ROUTES.aiRecipeDetails}
+        />
+      </Route>
       <Route
         element={(
           <Navigate

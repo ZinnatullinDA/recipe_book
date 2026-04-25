@@ -4,8 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { favoriteRecipeApi, useFavoriteRecipeStore } from '@/entities/favorite-recipe'
 import { RecipeDetails } from '@/entities/recipe'
 import { ROUTES } from '@/shared/constants/routes'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import styles from './FavoriteRecipeDetailsPage.module.css'
 
 export function FavoriteRecipeDetailsPage() {
@@ -28,7 +27,7 @@ export function FavoriteRecipeDetailsPage() {
         setRecipe(data)
       }
       catch {
-        setError('Не удалось открыть избранный рецепт.')
+        setError('РќРµ СѓРґР°Р»РѕСЃСЊ РѕС‚РєСЂС‹С‚СЊ РёР·Р±СЂР°РЅРЅС‹Р№ СЂРµС†РµРїС‚.')
       }
       finally {
         setIsLoading(false)
@@ -47,11 +46,11 @@ export function FavoriteRecipeDetailsPage() {
   }
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Избранное' }, { label: recipe?.title ?? 'Детали' }]}
-      description="Полная информация о сохраненном рецепте."
-      title={recipe?.title ?? 'Избранный рецепт'}
-    >
+    <>
+      <PageIntro
+        description="Полная информация о сохраненном рецепте."
+        title={recipe?.title ?? 'Избранный рецепт'}
+      />
       {isLoading && <Loader />}
       {!isLoading && error && <ErrorMessage message={error} />}
       {!isLoading && !error && !recipe && (
@@ -74,6 +73,6 @@ export function FavoriteRecipeDetailsPage() {
           recipe={recipe}
         />
       )}
-    </PageLayout>
+    </>
   )
 }

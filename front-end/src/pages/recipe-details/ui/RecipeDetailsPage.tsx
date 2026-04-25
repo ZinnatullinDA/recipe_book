@@ -2,8 +2,7 @@ import { useMemo } from 'react'
 import { useParams } from 'react-router-dom'
 import { useFavoriteRecipes } from '@/entities/favorite-recipe'
 import { RecipeDetails, useRecipeDetails } from '@/entities/recipe'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import styles from './RecipeDetailsPage.module.css'
 
 export function RecipeDetailsPage() {
@@ -19,11 +18,11 @@ export function RecipeDetailsPage() {
   }, [favorites, recipe])
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Рецепты' }, { label: recipe?.title ?? 'Детали' }]}
-      description="Полная информация о рецепте: картинка, описание, время, порции и инструкция."
-      title={recipe?.title ?? 'Детали рецепта'}
-    >
+    <>
+      <PageIntro
+        description="Полная информация о рецепте: картинка, описание, время, порции и инструкция."
+        title={recipe?.title ?? 'Детали рецепта'}
+      />
       {isLoading && <Loader />}
       {!isLoading && error && <ErrorMessage message={error} />}
       {!isLoading && !error && !recipe && (
@@ -61,6 +60,6 @@ export function RecipeDetailsPage() {
           recipe={recipe}
         />
       )}
-    </PageLayout>
+    </>
   )
 }

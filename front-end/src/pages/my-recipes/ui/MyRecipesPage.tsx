@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
 import { mapMyRecipeToRecipeDetails, useMyRecipes } from '@/entities/my-recipe'
 import { ROUTES } from '@/shared/constants/routes'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import { RecipesGrid } from '@/widgets/recipes-grid'
 import styles from './MyRecipesPage.module.css'
 
@@ -11,19 +10,19 @@ export function MyRecipesPage() {
   const cards = recipes.map(mapMyRecipeToRecipeDetails)
 
   return (
-    <PageLayout
-      action={(
-        <Link
-          className={styles.addButton}
-          to={ROUTES.myRecipeCreate}
-        >
+    <>
+      <PageIntro
+        action={(
+          <Link
+            className={styles.addButton}
+            to={ROUTES.myRecipeCreate}
+          >
           Добавить рецепт
-        </Link>
-      )}
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Мои рецепты' }]}
-      description="Раздел CRUD: создание, редактирование и удаление рецептов пользователя. Данные хранятся на Node.js backend в db.json."
-      title="Мои рецепты"
-    >
+          </Link>
+        )}
+        description="Раздел CRUD: создание, редактирование и удаление рецептов пользователя. Данные хранятся на Node.js backend в db.json."
+        title="Мои рецепты"
+      />
       <div className={styles.stack}>
         {isLoading && <Loader />}
         {!isLoading && error && <ErrorMessage message={error} />}
@@ -38,6 +37,6 @@ export function MyRecipesPage() {
           <RecipesGrid recipes={cards} />
         )}
       </div>
-    </PageLayout>
+    </>
   )
 }

@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
 import { ROUTES } from '@/shared/constants/routes'
-import { PageLayout } from '@/widgets/page-layout'
+import { PageIntro } from '@/shared/ui'
 import styles from './HomePage.module.css'
 
 export function HomePage() {
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }]}
-      description="Pet-проект для просмотра рецептов через Spoonacular API, backend CRUD, избранного и AI-рецептов."
-      title="Recipe Book App"
-    >
+    <>
+      <PageIntro
+        description="Pet-проект для просмотра рецептов через Spoonacular API, backend CRUD, избранного и AI-рецептов."
+        title="Recipe Book App"
+      />
       <section className={styles.hero}>
         <div className={styles.copy}>
           <span className={styles.eyebrow}>
@@ -65,6 +65,6 @@ export function HomePage() {
           </article>
         </div>
       </section>
-    </PageLayout>
+    </>
   )
 }

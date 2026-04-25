@@ -1,0 +1,31 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.title,
+.description {
+  margin: 0;
+}
+
+.title {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+}
+
+.description {
+  max-width: 720px;
+  margin-top: 10px;
+  color: var(--text-secondary);
+}
+
+.action {
+  flex-shrink: 0;
+}
+
+@media (max-width: 760px) {
+  .intro {
+    flex-direction: column;
+  }
+}

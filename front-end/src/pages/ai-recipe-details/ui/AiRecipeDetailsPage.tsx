@@ -5,8 +5,7 @@ import { aiRecipeApi } from '@/entities/ai-recipe'
 import { useMyRecipeStore } from '@/entities/my-recipe'
 import { RecipeDetails } from '@/entities/recipe'
 import { ROUTES } from '@/shared/constants/routes'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import styles from './AiRecipeDetailsPage.module.css'
 
 export function AiRecipeDetailsPage() {
@@ -57,11 +56,11 @@ export function AiRecipeDetailsPage() {
   }
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'AI рецепт' }, { label: recipe?.title ?? 'Детали' }]}
-      description="Детали AI-рецепта с возможностью сохранить его в ваши рецепты."
-      title={recipe?.title ?? 'AI-рецепт'}
-    >
+    <>
+      <PageIntro
+        description="Детали AI-рецепта с возможностью сохранить его в ваши рецепты."
+        title={recipe?.title ?? 'AI-рецепт'}
+      />
       {isLoading && <Loader />}
       {!isLoading && error && <ErrorMessage message={error} />}
       {!isLoading && !error && !recipe && (
@@ -85,6 +84,6 @@ export function AiRecipeDetailsPage() {
           recipe={recipe}
         />
       )}
-    </PageLayout>
+    </>
   )
 }

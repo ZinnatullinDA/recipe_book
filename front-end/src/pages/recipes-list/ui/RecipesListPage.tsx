@@ -2,8 +2,7 @@ import { useEffect, useMemo, useRef } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useRecipes } from '@/entities/recipe'
 import { RecipeSearch } from '@/features/search-recipes'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import { RecipesGrid } from '@/widgets/recipes-grid'
 import styles from './RecipesListPage.module.css'
 
@@ -62,11 +61,11 @@ export function RecipesListPage() {
   }, [cuisine, query])
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Рецепты' }]}
-      description={description}
-      title="Каталог рецептов"
-    >
+    <>
+      <PageIntro
+        description={description}
+        title="Каталог рецептов"
+      />
       <div className={styles.stack}>
         <RecipeSearch
           cuisines={cuisines}
@@ -104,10 +103,14 @@ export function RecipesListPage() {
               />
             )}
             {isLoadingMore && <Loader />}
-            {!hasMore && <p className={styles.end}>Вы просмотрели все найденные рецепты.</p>}
+            {!hasMore && (
+              <p className={styles.end}>
+                Вы просмотрели все найденные рецепты.
+              </p>
+            )}
           </>
         )}
       </div>
-    </PageLayout>
+    </>
   )
 }

@@ -4,8 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useMyRecipes } from '@/entities/my-recipe'
 import { MyRecipeForm } from '@/features/my-recipe-form'
 import { ROUTES } from '@/shared/constants/routes'
-import { Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { Loader, PageIntro } from '@/shared/ui'
 
 export function MyRecipeEditPage() {
   const navigate = useNavigate()
@@ -28,11 +27,11 @@ export function MyRecipeEditPage() {
   }
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Мои рецепты' }, { label: recipe?.title ?? 'Редактирование' }]}
-      description="Редактирование уже сохраненного собственного рецепта."
-      title="Редактировать рецепт"
-    >
+    <>
+      <PageIntro
+        description="Редактирование уже сохраненного собственного рецепта."
+        title="Редактировать рецепт"
+      />
       {isLoading && <Loader />}
       {!isLoading && recipe && (
         <MyRecipeForm
@@ -58,6 +57,6 @@ export function MyRecipeEditPage() {
           Вернуться к моим рецептам
         </button>
       )}
-    </PageLayout>
+    </>
   )
 }

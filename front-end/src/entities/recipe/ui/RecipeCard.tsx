@@ -11,9 +11,10 @@ interface RecipeCardProps {
 
 export function RecipeCard({ recipe }: RecipeCardProps) {
   const sourceType = (recipe as RecipeDetails).sourceType
+  const isFavoriteRecord = 'sourceKey' in recipe && 'sourceId' in recipe && sourceType !== 'ai' && sourceType !== 'my'
   const detailsLink = sourceType === 'ai'
     ? ROUTES.aiRecipeDetails.replace(':id', String(recipe.id))
-    : sourceType === 'favorite'
+    : isFavoriteRecord
         ? ROUTES.favoriteRecipeDetails.replace(':id', String(recipe.id))
         : sourceType === 'my'
             ? ROUTES.myRecipeDetails.replace(':id', String(recipe.id))
@@ -32,7 +33,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
           className={styles.image}
           src={recipe.imageUrl}
         />
-        { time && (
+        {time && (
           <span className={styles.badge}>
             {time}
           </span>

@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { useAiRecipes } from '@/entities/ai-recipe'
 import { RecipeCard } from '@/entities/recipe'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import styles from './AiRecipesPage.module.css'
 
 export function AiRecipesPage() {
@@ -21,11 +20,11 @@ export function AiRecipesPage() {
   }
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'AI рецепт' }]}
-      description="Пользователь описывает пожелания, а GigaChat возвращает 3 готовых рецепта."
-      title="AI рецепт"
-    >
+    <>
+      <PageIntro
+        description="Пользователь описывает пожелания, а GigaChat возвращает 3 готовых рецепта."
+        title="AI рецепты"
+      />
       <div className={styles.stack}>
         <form
           className={styles.form}
@@ -69,6 +68,6 @@ export function AiRecipesPage() {
           </section>
         )}
       </div>
-    </PageLayout>
+    </>
   )
 }

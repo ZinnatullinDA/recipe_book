@@ -26,14 +26,16 @@ export function RecipeDetails({ recipe, action }: RecipeDetailsProps) {
           <div className={styles.meta}>
             <span>
               Время:
+              {' '}
               {formatCookingTime(recipe.readyInMinutes)}
             </span>
             <span>
               Порций:
+              {' '}
               {recipe.servings}
             </span>
+            {action}
           </div>
-          {action}
         </div>
         <img
           alt={recipe.title}

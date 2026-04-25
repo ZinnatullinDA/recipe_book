@@ -1,24 +1,23 @@
 import { useFavoriteRecipes } from '@/entities/favorite-recipe'
 import { RecipeCard } from '@/entities/recipe'
-import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
-import { PageLayout } from '@/widgets/page-layout'
+import { EmptyState, ErrorMessage, Loader, PageIntro } from '@/shared/ui'
 import styles from './FavoritesPage.module.css'
 
 export function FavoritesPage() {
   const { recipes, isLoading, error } = useFavoriteRecipes()
 
   return (
-    <PageLayout
-      breadcrumbs={[{ label: 'Главная' }, { label: 'Избранное' }]}
-      description="Сохраненные рецепты с возможностью открыть детали и убрать их из избранного."
-      title="Избранные рецепты"
-    >
+    <>
+      <PageIntro
+        description="Сохраненные рецепты с возможностью открыть детали и убрать их из избранного."
+        title="Избранные рецепты"
+      />
       <div className={styles.stack}>
         {isLoading && <Loader />}
         {!isLoading && error && <ErrorMessage message={error} />}
         {!isLoading && !error && recipes.length === 0 && (
           <EmptyState
-            description="На детальной странице обычного рецепта можно добавить его в избранное."
+            description="На детальной странице обычного рецепта можно добавить его в избранное. Здесь будут отображаться все добавленные рецепты."
             title="Избранных рецептов пока нет"
           />
         )}
@@ -33,6 +32,6 @@ export function FavoritesPage() {
           </section>
         )}
       </div>
-    </PageLayout>
+    </>
   )
 }
