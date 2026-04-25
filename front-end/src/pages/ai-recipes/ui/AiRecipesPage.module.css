@@ -1,6 +1,7 @@
 .stack {
-  display: grid;
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
 }
 
 .form {
@@ -45,8 +46,9 @@
   cursor: progress;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
+
+.aiCards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }

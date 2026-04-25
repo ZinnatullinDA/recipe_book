@@ -59,7 +59,7 @@ export function AiRecipesPage() {
           />
         )}
         {!isLoading && !error && recipes.length > 0 && (
-          <section className={styles.grid}>
+          <section className={styles.aiCards}>
             {recipes.map(recipe => (
               <RecipeCard
                 key={recipe.id}
