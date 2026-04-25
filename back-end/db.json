@@ -1,5 +1,17 @@
 {
-  "myRecipes": [],
+  "myRecipes": [
+    {
+      "title": "111",
+      "description": "r,blre,",
+      "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80",
+      "cookingTime": 30,
+      "servings": 2,
+      "ingredients": "p[elrpler",
+      "instructions": "erlp[erlp[ler",
+      "category": "111",
+      "id": "b151a1e8-97f8-4ba7-9235-ebd41faf2e99"
+    }
+  ],
   "favorites": [
     {
       "id": "9800c98d-a5c0-4373-9cd1-ef099d42a742",
@@ -54,6 +66,114 @@
         "vegan"
       ],
       "cuisines": []
+    },
+    {
+      "id": "692fb38f-1da9-4958-823c-72f3d7c08b53",
+      "sourceType": "spoonacular",
+      "sourceId": "644387",
+      "sourceKey": "spoonacular:644387",
+      "title": "Garlicky Kale",
+      "imageUrl": "https://img.spoonacular.com/recipes/644387-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 2,
+      "summary": "Garlicky Kale requires approximately 45 minutes from start to finish. This side dish has 170 calories , 2g of protein , and 15g of fat per serving. This recipe serves 2. For 69 cents per serving , this recipe covers 17% of your daily requirements of vitamins and minerals. 19 people have made this recipe and would make it again. This recipe from Foodista requires balsamic vinegar, garlic, curly kale, and olive oil. It is a good option if you're following a gluten free, dairy free, paleolithic, and lacto ovo vegetarian diet. With a spoonacular score of 99% , this dish is outstanding. Try Garlicky Kale , Garlicky Kale , and Garlicky Kale for similar recipes.",
+      "instructions": "Heat the olive oil in a large pot over medium heat. Add the kale and cover. Stir occasionally until the volume of the kale is reduced by half. Uncover. Add garlic and basalmic. Allow to cook for about another 30 seconds or so, mixing well so that the garlic and vinegar are well distributed. Serve hot.",
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "cuisines": []
+    },
+    {
+      "id": "6e3f5599-b7a4-4f4b-91a1-64f23fe3b5c3",
+      "sourceType": "spoonacular",
+      "sourceId": "715446",
+      "sourceKey": "spoonacular:715446",
+      "title": "Slow Cooker Beef Stew",
+      "imageUrl": "https://img.spoonacular.com/recipes/715446-556x370.jpg",
+      "readyInMinutes": 490,
+      "servings": 6,
+      "summary": "If you want to add more gluten free and dairy free recipes to your recipe box, Slow Cooker Beef Stew might be a recipe you should try. One serving contains 434 calories , 44g of protein , and 12g of fat . This recipe serves 6. For $2.7 per serving , this recipe covers 45% of your daily requirements of vitamins and minerals. It works best as a main course, and is done in approximately 8 hours and 10 minutes . If you have green onions, carrots, celery, and a few other ingredients on hand, you can make it. This recipe is liked by 57 foodies and cooks. Autumn will be even more special with this recipe. It is brought to you by Pink When. Taking all factors into account, this recipe earns a spoonacular score of 99% , which is awesome. Similar recipes include Slow Cooker Beef Stew , Slow Cooker Beef Stew , and Slow Cooker Beef Stew .",
+      "instructions": "To get started, heat your slow cooker to low. Pour in the cream of mushroom soup, Dale's seasoning, water, and beef broth and stir until mixed well. Add in your stew meat, potatoes, onions, carrots, celery, and green onions. Stir well until covered and cook on low for 8 hours. You can add salt and pepper as desired, but the flavors and the Dale's marry together so well that you probably won’t need them.",
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "cuisines": []
+    },
+    {
+      "id": "023316b3-c7c2-43e8-8e60-2519ab2c10d4",
+      "sourceType": "spoonacular",
+      "sourceId": "782601",
+      "sourceKey": "spoonacular:782601",
+      "title": "Red Kidney Bean Jambalaya",
+      "imageUrl": "https://img.spoonacular.com/recipes/782601-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "summary": "Red Kidney Bean Jambalayan is a main course that serves 6. One portion of this dish contains approximately 18g of protein , 6g of fat , and a total of 393 calories . For $1.68 per serving , this recipe covers 33% of your daily requirements of vitamins and minerals. 53 people were glad they tried this recipe. A mixture of vegetable stock, tomatoes, onion, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is a good option if you're following a gluten free, dairy free, lacto ovo vegetarian, and vegan diet. This recipe is typical of Cajun cuisine. It is brought to you by foodandspice.blogspot.com. From preparation to the plate, this recipe takes roughly 45 minutes . Overall, this recipe earns a tremendous spoonacular score of 99% . Users who liked this recipe also liked Red Kidney Bean Jambalaya , Red Kidney Bean Salad , and Red Kidney Bean Curry .",
+      "instructions": "Rinse the kidney beans and brown rice separately. Cover the kidney beans with water and soak for 8 hours or overnight. In a separate bowl, cover the brown rice with water and soak for 8 hours or overnight.Drain and rinse the kidney beans, then transfer to a medium saucepan and cover with fresh water. Bring to a boil, reduce heat to medium-low, cover, and simmer for 1 hour or until just tender but not falling apart. Drain and set aside.Heat the oil in a large saucepan over medium heat. When hot, add the onion and saut for 5 minutes. Now add the garlic, carrots, celery and green beans, and stir for another 5 minutes. Next add the tomatoes, red pepper, eggplant, sage, thyme, marjoram and celery seed, and continue to stir for another few minutes.Pour in the vegetable stock, liquid smoke, rice and the cooked kidney beans. Bring to a boil, reduce heat to medium low, cover, and cook, stirring occasionally, for 45 minutes or until the rice is tender. Add water as necessary if the stew becomes too dry.Season with sriracha, salt and pepper, and taste for seasoning add more liquid smoke, sriracha, salt, pepper or herbs as desired.",
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "cuisines": [
+        "Cajun",
+        "Creole"
+      ]
+    },
+    {
+      "id": "af9a272c-90f8-41f2-ac87-cc7c94a65314",
+      "sourceType": "spoonacular",
+      "sourceId": "716426",
+      "sourceKey": "spoonacular:716426",
+      "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+      "imageUrl": "https://img.spoonacular.com/recipes/716426-556x370.jpg",
+      "readyInMinutes": 30,
+      "servings": 8,
+      "summary": "The recipe Cauliflower, Brown Rice, and Vegetable Fried Rice is ready in around 30 minutes and is definitely a great gluten free, dairy free, lacto ovo vegetarian, and vegan option for lovers of Chinese food. This recipe makes 8 servings with 248 calories , 7g of protein , and 13g of fat each. For $1.19 per serving , this recipe covers 19% of your daily requirements of vitamins and minerals. It works well as a hor d'oeuvre. 3689 people have made this recipe and would make it again. It is brought to you by fullbellysisters.blogspot.com. Head to the store and pick up broccoli, t grapeseed oil, sesame seeds, and a few other things to make it today. With a spoonacular score of 100% , this dish is amazing. Cauliflower, Brown Rice, and Vegetable Fried Rice , Cauliflower, Brown Rice, and Vegetable Fried Rice , and Cauliflower, Brown Rice, and Vegetable Fried Rice are very similar to this recipe.",
+      "instructions": "Remove the cauliflower's tough stem and reserve for another use. Using a food processor, pulse cauliflower florets until they resemble rice or couscous. You should end up with around four cups of \"cauliflower rice.\" Heat 1T butter and 1T oil in a large skillet over medium heat. Add garlic and the white and light green pieces of scallion. Sauté about a minute. Add the cauliflower to the pan. Stir to coat with oil, then spread out in pan and let sit; you want it cook a bit and to caramelize (get a bit brown), which will bring out the sweetness. After a couple of minutes, stir and spread out again. Add cold rice (it separates easily, so it won't clump up during cooking), plus the additional grapeseed and coconut oil or butter. Raise heat to medium-high. Toss everything together and, again, spread the mixture out over the whole pan and press a bit into the bottom. Let it sit for about two minutes—so the rice can get toasted and a little crispy. Add the peas and broccoli and stir again. Drizzle soy sauce and toasted sesame oil over rice. Cook for another minute or so and turn off heat. Add chopped scallion tops and toss. I like to toast some sesame seeds in a dry pan; I sprinkle these and some more raw, chopped scallion over the top of the rice for added flavor and crunch. Season to taste with salt and, if you'd like, more soy sauce. Keep in mind that if you're serving this with something salty and saucy (ie. teriyaki chicken) you may want to hold off on adding too much salt to the fried rice.",
+      "dishTypes": [
+        "side dish",
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "cuisines": [
+        "Chinese",
+        "Asian"
+      ]
     }
   ],
   "aiRecipes": [

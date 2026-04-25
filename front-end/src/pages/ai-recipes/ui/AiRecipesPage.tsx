@@ -64,7 +64,6 @@ export function AiRecipesPage() {
               <RecipeCard
                 key={recipe.id}
                 recipe={recipe}
-                subtitle={recipe.summary}
               />
             ))}
           </section>

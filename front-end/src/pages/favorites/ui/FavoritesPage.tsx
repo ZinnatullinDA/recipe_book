@@ -23,12 +23,11 @@ export function FavoritesPage() {
           />
         )}
         {!isLoading && !error && recipes.length > 0 && (
-          <section className={styles.grid}>
+          <section className={styles.favoritePage}>
             {recipes.map(recipe => (
               <RecipeCard
                 key={recipe.id}
                 recipe={recipe}
-                subtitle="Сохранено в избранное"
               />
             ))}
           </section>

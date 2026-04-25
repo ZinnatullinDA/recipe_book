@@ -9,13 +9,14 @@ interface RecipeCardProps {
   subtitle?: string
 }
 
-export function RecipeCard({ recipe, subtitle }: RecipeCardProps) {
+export function RecipeCard({ recipe }: RecipeCardProps) {
   const detailsLink = (recipe as RecipeDetails).sourceType === 'ai'
     ? ROUTES.aiRecipeDetails.replace(':id', String(recipe.id))
     : (recipe as RecipeDetails).sourceType
         ? ROUTES.favoriteRecipeDetails.replace(':id', String(recipe.id))
         : ROUTES.recipeDetails.replace(':recipeId', String(recipe.id))
-  const time = 'readyInMinutes' in recipe ? formatCookingTime(recipe.readyInMinutes) : 'Откройте рецепт'
+
+  const time = 'readyInMinutes' in recipe ? formatCookingTime(recipe.readyInMinutes) : null
 
   return (
     <Link
@@ -28,17 +29,16 @@ export function RecipeCard({ recipe, subtitle }: RecipeCardProps) {
           className={styles.image}
           src={recipe.imageUrl}
         />
-        <span className={styles.badge}>
-          {time}
-        </span>
+        { time && (
+          <span className={styles.badge}>
+            {time}
+          </span>
+        )}
       </div>
       <div className={styles.content}>
         <h3>
           {recipe.title}
         </h3>
-        <p>
-          {subtitle ?? 'Рецепт из коллекции Spoonacular'}
-        </p>
       </div>
     </Link>
   )

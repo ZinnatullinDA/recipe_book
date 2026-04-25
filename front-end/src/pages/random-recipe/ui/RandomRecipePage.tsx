@@ -26,7 +26,6 @@ export function RandomRecipePage() {
           <div className={styles.cardWrap}>
             <RecipeCard
               recipe={recipe}
-              subtitle={recipe.summary}
             />
           </div>
         )}
