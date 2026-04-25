@@ -2,18 +2,43 @@
   "myRecipes": [],
   "favorites": [
     {
-      "id": "7716c8a7-c717-45e5-91a2-f044bef3837d",
+      "id": "9800c98d-a5c0-4373-9cd1-ef099d42a742",
       "sourceType": "spoonacular",
-      "sourceId": "659906",
-      "sourceKey": "spoonacular:659906",
-      "title": "Shrimp & Crab Egg Rolls",
-      "imageUrl": "https://img.spoonacular.com/recipes/659906-556x370.jpg",
-      "readyInMinutes": 45,
-      "servings": 6,
-      "summary": "You can never have too many Chinese recipes, so give Shrimp & Crab Egg Rolls a try. For $2.58 per serving , you get a hor d'oeuvre that serves 6. One serving contains 313 calories , 16g of protein , and 4g of fat . This recipe is liked by 3 foodies and cooks. It is brought to you by Foodista. If you have shrimp, egg, vegetable oil, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately 45 minutes . It is a good option if you're following a dairy free and pescatarian diet. All things considered, we decided this recipe deserves a spoonacular score of 43% . This score is solid. Similar recipes include Shrimp and Crab Salad Rolls , Shrimp and Crab Salad Rolls , and Shrimp and Crab Salad Rolls .",
-      "instructions": "8 oz. bean sprouts, washed n patted dry 2 carrots, shredded or grated 1 lb imitation crab (or the real thing) 1/2 lb medium sized shrimp, shelled & deveined 2 garlic cloves, finely minced (1 tbsp garlic powder) 1 tsp brown sugar 2 green onions, finely chopped (green part only) 20 (6 or 8-inch) egg roll wrappers 1 beaten egg, for egg wash vegetable oil, for frying 1 tsp salt and ground pepper 1 cup sweet chili sauce",
+      "sourceId": "715415",
+      "sourceKey": "spoonacular:715415",
+      "title": "Red Lentil Soup with Chicken and Turnips",
+      "imageUrl": "https://img.spoonacular.com/recipes/715415-556x370.jpg",
+      "readyInMinutes": 55,
+      "servings": 8,
+      "summary": "Red Lentil Soup with Chicken and Turnips might be a good recipe to expand your main course repertoire. This recipe serves 8 and costs $3.0 per serving. One serving contains 477 calories , 27g of protein , and 20g of fat . It is brought to you by Pink When. 1866 people have tried and liked this recipe. It can be enjoyed any time, but it is especially good for Autumn . From preparation to the plate, this recipe takes approximately 55 minutes . It is a good option if you're following a gluten free and dairy free diet. Head to the store and pick up salt and pepper, canned tomatoes, flat leaf parsley, and a few other things to make it today. Overall, this recipe earns a spectacular spoonacular score of 99% . If you like this recipe, you might also like recipes such as Red Lentil and Chicken Soup , Red Lentil and Chicken Soup , and Red-Lentil Soup .",
+      "instructions": "To a large dutch oven or soup pot, heat the olive oil over medium heat. Add the onion, carrots and celery and cook for 8-10 minutes or until tender, stirring occasionally. Add the garlic and cook for an additional 2 minutes, or until fragrant. Season conservatively with a pinch of salt and black pepper.To the pot, add the tomatoes, turnip and red lentils. Stir to combine. Stir in the vegetable stock and increase the heat on the stove to high. Bring the soup to a boil and then reduce to a simmer. Simmer for 20 minutes or until the turnips are tender and the lentils are cooked through. Add the chicken breast and parsley. Cook for an additional 5 minutes. Adjust seasoning to taste.Serve the soup immediately garnished with fresh parsley and any additional toppings. Enjoy!",
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "cuisines": []
+    },
+    {
+      "id": "6870fcdf-c2ad-4334-ad59-1e7aed1e2ff1",
+      "sourceType": "spoonacular",
+      "sourceId": "716406",
+      "sourceKey": "spoonacular:716406",
+      "title": "Asparagus and Pea Soup: Real Convenience Food",
+      "imageUrl": "https://img.spoonacular.com/recipes/716406-556x370.jpg",
+      "readyInMinutes": 20,
+      "servings": 2,
+      "summary": "Asparagus and Pea Soup: Real Convenience Food requires approximately 20 minutes from start to finish. Watching your figure? This gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipe has 217 calories , 11g of protein , and 8g of fat per serving. This recipe serves 2. For $1.78 per serving , this recipe covers 25% of your daily requirements of vitamins and minerals. Autumn will be even more special with this recipe. It works well as a hor d'oeuvre. 207 people have tried and liked this recipe. It is brought to you by fullbellysisters.blogspot.com. A mixture of vegetable broth, evoo, garlic, and a handful of other ingredients are all it takes to make this recipe so yummy. All things considered, we decided this recipe deserves a spoonacular score of 96% . This score is outstanding. Try Asparagus and Pea Soup: Real Convenience Food , Asparagus and Pea Soup: Real Convenience Food , and Asparagus and Pea Soup: Real Convenience Food for similar recipes.",
+      "instructions": "Chop the garlic and onions. Saute the onions in the EVOO, adding the garlic after a couple of minutes; cook until the onions are translucent. Add the whole bag of asparagus and cover everything with the broth. Season with salt and pepper and a pinch of red pepper flakes, if using. Simmer until the asparagus is bright green and tender (if you've thawed the asparagus it will only take a couple of minutes). Turn off the heat and puree using an immersion blender. Add peas (the heat of the soup will quickly thaw them) and puree until smooth; add more until it reaches the thickness you like. Top with chives and a small dollop of creme fraiche or sour cream or greek yogurt.",
       "dishTypes": [
         "antipasti",
+        "soup",
         "starter",
         "snack",
         "appetizer",
@@ -21,16 +46,275 @@
         "hor d'oeuvre"
       ],
       "diets": [
+        "gluten free",
         "dairy free",
-        "pescatarian"
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
       ],
-      "cuisines": [
-        "Chinese",
-        "Asian"
-      ]
+      "cuisines": []
     }
   ],
   "aiRecipes": [
+    {
+      "id": "51ebc491-c037-45f9-8bd4-c739497c29c4",
+      "sourceType": "ai",
+      "sourceId": "1777122195604-1",
+      "sourceKey": "ai:1777122195604-1",
+      "title": "Курица по-пекински",
+      "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "summary": "Нежная курица в ароматной кисло-сладкой глазури.",
+      "instructions": "1. Нарезать куриное филе кусочками. 2. Обжарить до золотистого цвета. 3. Смешать соевый соус, мед, апельсиновый сок, чеснок и имбирь. 4. Полить полученной смесью обжаренную курицу и тушить еще несколько минут.",
+      "dishTypes": [
+        "второе блюдо"
+      ],
+      "diets": [
+        "безглютеновая диета",
+        "низкокалорийная диета"
+      ],
+      "cuisines": [
+        "китайская"
+      ]
+    },
+    {
+      "id": "678003d9-dfe2-41fc-9b8c-9c811793b7c1",
+      "sourceType": "ai",
+      "sourceId": "1777122195605-2",
+      "sourceKey": "ai:1777122195605-2",
+      "title": "Цыпленок по-пекински с овощами",
+      "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "summary": "Сочное куриное мясо с хрустящими овощами.",
+      "instructions": "1. Отварить или запечь кусочки курицы. 2. Обжарить болгарский перец, морковь и брокколи отдельно. 3. Смешать все ингредиенты вместе, добавить специи и соевый соус.",
+      "dishTypes": [
+        "гарнир",
+        "основное блюдо"
+      ],
+      "diets": [
+        "вегетарианская диета (если исключить курицу)"
+      ],
+      "cuisines": [
+        "китайская"
+      ]
+    },
+    {
+      "id": "a951a4d3-9de5-4d10-9a9a-982ffe8437dd",
+      "sourceType": "ai",
+      "sourceId": "1777122195605-3",
+      "sourceKey": "ai:1777122195605-3",
+      "title": "Рулетики из куриного филе по-пекински",
+      "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+      "readyInMinutes": 50,
+      "servings": 8,
+      "summary": "Легкие рулетики с пикантным вкусом.",
+      "instructions": "1. Нарезать куриное филе тонкими полосками. 2. Добавить начинку из зелени, чеснока и огурца, завернуть в рулетики. 3. Запекать в духовке под кисло-сладким соусом.",
+      "dishTypes": [
+        "закуска",
+        "аперитив"
+      ],
+      "diets": [
+        "низкокалорийная диета"
+      ],
+      "cuisines": [
+        "китайская"
+      ]
+    },
+    {
+      "id": "b22513b1-3a5d-44b8-93fb-eb37e74d972f",
+      "sourceType": "ai",
+      "sourceId": "1777122167615-1",
+      "sourceKey": "ai:1777122167615-1",
+      "title": "Фруктовый салат с йогуртом",
+      "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+      "readyInMinutes": 10,
+      "servings": 4,
+      "summary": "Легкий и освежающий фруктовый салат.",
+      "instructions": "Нарежьте фрукты кубиками, смешайте в миске, добавьте йогурт и аккуратно перемешайте.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская",
+        "веганская"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "a7f0e832-0431-42ee-aeb5-a2d1ad502f2f",
+      "sourceType": "ai",
+      "sourceId": "1777122167615-2",
+      "sourceKey": "ai:1777122167615-2",
+      "title": "Тропический фруктовый салат",
+      "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+      "readyInMinutes": 15,
+      "servings": 6,
+      "summary": "Сочный и ароматный тропический фруктовый микс.",
+      "instructions": "Очистите и нарежьте ананас, манго, папайю и маракуйю. Смешайте все ингредиенты вместе.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская"
+      ],
+      "cuisines": [
+        "тропическая"
+      ]
+    },
+    {
+      "id": "c55d32ba-fa5a-4364-b48d-54e3ef12a6d9",
+      "sourceType": "ai",
+      "sourceId": "1777122167615-3",
+      "sourceKey": "ai:1777122167615-3",
+      "title": "Салат из яблок и апельсинов",
+      "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+      "readyInMinutes": 7,
+      "servings": 2,
+      "summary": "Освежающий салат с легкой кислинкой.",
+      "instructions": "Натрите яблоки и апельсины на терке, добавьте лимонный сок и мед по вкусу.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская"
+      ],
+      "cuisines": [
+        "домашняя"
+      ]
+    },
+    {
+      "id": "60129504-8259-4abf-ba71-f0efd73ece51",
+      "sourceType": "ai",
+      "sourceId": "1777121993505-1",
+      "sourceKey": "ai:1777121993505-1",
+      "title": "Салат с авокадо и креветками",
+      "imageUrl": "https://loremflickr.com/1200/800/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%B0%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE%20%D0%B8%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%BC%D0%B5%D0%BA%D1%81%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F?lock=%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%B0%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE%20%D0%B8%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%BC%D0%B5%D0%BA%D1%81%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "summary": "Свежий салат с нежным вкусом авокадо и морепродуктами.",
+      "instructions": "1. Очистить и нарезать кубиками авокадо.\n2. Пожарить или отварить креветки до готовности.\n3. Смешать ингредиенты в миске, добавить соль и перец по вкусу.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская",
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "мексиканская"
+      ]
+    },
+    {
+      "id": "dab837d2-aa5c-4238-9e3a-cbbf8cdd01e9",
+      "sourceType": "ai",
+      "sourceId": "1777121993505-2",
+      "sourceKey": "ai:1777121993505-2",
+      "title": "Суп-пюре из брокколи",
+      "imageUrl": "https://loremflickr.com/1200/800/%D0%A1%D1%83%D0%BF-%D0%BF%D1%8E%D1%80%D0%B5%20%D0%B8%D0%B7%20%D0%B1%D1%80%D0%BE%D0%BA%D0%BA%D0%BE%D0%BB%D0%B8%2C%D1%81%D1%83%D0%BF%2C%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F?lock=%D0%A1%D1%83%D0%BF-%D0%BF%D1%8E%D1%80%D0%B5%20%D0%B8%D0%B7%20%D0%B1%D1%80%D0%BE%D0%BA%D0%BA%D0%BE%D0%BB%D0%B8%2C%D1%81%D1%83%D0%BF%2C%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F",
+      "readyInMinutes": 20,
+      "servings": 6,
+      "summary": "Нежный суп-пюре с насыщенным вкусом брокколи.",
+      "instructions": "1. Отварить брокколи до мягкости.\n2. Слить воду, пюрировать брокколи блендером с добавлением небольшого количества отвара.\n3. Добавить сливки, соль и специи по вкусу.",
+      "dishTypes": [
+        "суп"
+      ],
+      "diets": [
+        "вегетарианская",
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "067e67e7-7926-4f88-8253-662f93cff2bd",
+      "sourceType": "ai",
+      "sourceId": "1777121993505-3",
+      "sourceKey": "ai:1777121993505-3",
+      "title": "Омлет с зеленью",
+      "imageUrl": "https://loremflickr.com/1200/800/%D0%9E%D0%BC%D0%BB%D0%B5%D1%82%20%D1%81%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8C%D1%8E%2C%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0%D0%BA%2C%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F?lock=%D0%9E%D0%BC%D0%BB%D0%B5%D1%82%20%D1%81%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8C%D1%8E%2C%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0%D0%BA%2C%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F",
+      "readyInMinutes": 10,
+      "servings": 2,
+      "summary": "Легкий омлет с ароматной зеленью.",
+      "instructions": "1. Взбить яйца с солью и перцем.\n2. Добавить мелко нарезанную зелень (укроп, петрушка).\n3. Запечь или обжарить смесь на сковороде до готовности.",
+      "dishTypes": [
+        "завтрак"
+      ],
+      "diets": [
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "русская"
+      ]
+    },
+    {
+      "id": "5b0f5e6e-4757-483f-9603-794114f05a18",
+      "sourceType": "ai",
+      "sourceId": "1777121959155-1",
+      "sourceKey": "ai:1777121959155-1",
+      "title": "Салат с креветками и авокадо",
+      "imageUrl": "https://loremflickr.com/1200/800/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%B0%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F?lock=%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%B0%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "summary": "Легкий и вкусный салат с креветками и авокадо.",
+      "instructions": "1. Отварите или обжарьте очищенные креветки.\n2. Авокадо очистите и нарежьте кубиками.\n3. Смешайте креветки, авокадо, нарезанный кольцами красный лук и листья салата.\n4. Заправьте оливковым маслом и лимонным соком по вкусу.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская",
+        "безглютеновая"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "a4329066-7227-4e36-8130-8ebe17726d96",
+      "sourceType": "ai",
+      "sourceId": "1777121959155-2",
+      "sourceKey": "ai:1777121959155-2",
+      "title": "Цезарь с креветками",
+      "imageUrl": "https://loremflickr.com/1200/800/%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8C%20%D1%81%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F?lock=%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8C%20%D1%81%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F",
+      "readyInMinutes": 20,
+      "servings": 6,
+      "summary": "Классический Цезарь с добавлением креветок.",
+      "instructions": "1. Обжарьте кусочки хлеба до хрустящей корочки (крутоны).\n2. Обжаренные креветки смешайте с листьями ромена, тертым пармезаном и крутонами.\n3. Заправьте классическим соусом Цезарь.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [],
+      "cuisines": [
+        "американская"
+      ]
+    },
+    {
+      "id": "01cdf206-c6da-4354-9c2b-0121d07849eb",
+      "sourceType": "ai",
+      "sourceId": "1777121959155-3",
+      "sourceKey": "ai:1777121959155-3",
+      "title": "Креветочный салат с манго и мятой",
+      "imageUrl": "https://loremflickr.com/1200/800/%D0%9A%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BC%D0%B0%D0%BD%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D1%8F%D1%82%D0%BE%D0%B9%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%B0%D0%B7%D0%B8%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F?lock=%D0%9A%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BC%D0%B0%D0%BD%D0%B3%D0%BE%20%D0%B8%20%D0%BC%D1%8F%D1%82%D0%BE%D0%B9%2C%D1%81%D0%B0%D0%BB%D0%B0%D1%82%2C%D0%B0%D0%B7%D0%B8%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F",
+      "readyInMinutes": 18,
+      "servings": 4,
+      "summary": "Экзотический салат с креветками, манго и свежей мятой.",
+      "instructions": "1. Обжарьте креветки до готовности.\n2. Манго нарежьте небольшими кусочками.\n3. Смешайте креветки, манго, свежую мяту и тонкие ломтики красного лука.\n4. Заправьте смесью сока лайма, меда и оливкового масла.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская",
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "азиатская"
+      ]
+    },
     {
       "id": "7da82ca9-3350-41de-b064-b105885a3f2f",
       "sourceType": "ai",

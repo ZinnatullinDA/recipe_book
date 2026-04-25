@@ -1,5 +1,5 @@
-import type { RecipeDetails } from '@/entities/recipe/model/types'
 import type { MyRecipe, MyRecipeFormValues } from '../model/types'
+import type { RecipeDetails } from '@/entities/recipe/model/types'
 import { backendRequest } from '@/shared/api/backendRequest'
 
 export const myRecipeApi = {

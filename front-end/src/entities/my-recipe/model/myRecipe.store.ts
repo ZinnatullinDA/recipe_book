@@ -1,5 +1,5 @@
-import type { RecipeDetails } from '@/entities/recipe/model/types'
 import type { MyRecipe, MyRecipeFormValues } from './types'
+import type { RecipeDetails } from '@/entities/recipe/model/types'
 import { create } from 'zustand'
 import { myRecipeApi } from '../api/myRecipeApi'
 
