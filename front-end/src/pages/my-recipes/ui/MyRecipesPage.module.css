@@ -10,13 +10,3 @@
   color: #fff;
   font-weight: 700;
 }
-
-.cards {
-  display: grid;
-  gap: 18px;
-}
-
-.cardItem {
-  display: grid;
-  gap: 12px;
-}

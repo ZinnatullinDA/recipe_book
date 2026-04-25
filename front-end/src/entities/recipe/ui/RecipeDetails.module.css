@@ -77,6 +77,12 @@
   color: var(--text-secondary);
 }
 
+.divider {
+  height: 1px;
+  margin: 20px 0;
+  background: var(--bg-border);
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;

@@ -8,6 +8,8 @@ interface RecipeDetailsProps {
 }
 
 export function RecipeDetails({ recipe, action }: RecipeDetailsProps) {
+  const tags = [...recipe.dishTypes, ...recipe.diets, ...recipe.cuisines]
+
   return (
     <article className={styles.details}>
       <div className={styles.hero}>
@@ -42,6 +44,17 @@ export function RecipeDetails({ recipe, action }: RecipeDetailsProps) {
 
       <div className={styles.columns}>
         <section className={styles.card}>
+          {recipe.ingredients && (
+            <>
+              <h2>
+                Ингредиенты
+              </h2>
+              <p>
+                {recipe.ingredients}
+              </p>
+              <div className={styles.divider} />
+            </>
+          )}
           <h2>
             Инструкция
           </h2>
@@ -54,13 +67,21 @@ export function RecipeDetails({ recipe, action }: RecipeDetailsProps) {
           <h2>
             Категории
           </h2>
-          <div className={styles.tags}>
-            {[...recipe.dishTypes, ...recipe.diets, ...recipe.cuisines].map(tag => (
-              <span key={tag}>
-                {tag}
-              </span>
-            ))}
-          </div>
+          {tags.length > 0
+            ? (
+                <div className={styles.tags}>
+                  {tags.map(tag => (
+                    <span key={tag}>
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )
+            : (
+                <p>
+                  Категории не указаны.
+                </p>
+              )}
         </section>
       </div>
     </article>

@@ -5,6 +5,7 @@ import { FavoriteRecipeDetailsPage } from '@/pages/favorite-recipe-details'
 import { FavoritesPage } from '@/pages/favorites'
 import { HomePage } from '@/pages/home'
 import { MyRecipeCreatePage } from '@/pages/my-recipe-create'
+import { MyRecipeDetailsPage } from '@/pages/my-recipe-details'
 import { MyRecipeEditPage } from '@/pages/my-recipe-edit'
 import { MyRecipesPage } from '@/pages/my-recipes'
 import { RandomRecipePage } from '@/pages/random-recipe'
@@ -42,6 +43,10 @@ export function AppRoutes() {
       <Route
         element={<MyRecipeEditPage />}
         path={ROUTES.myRecipeEdit}
+      />
+      <Route
+        element={<MyRecipeDetailsPage />}
+        path={ROUTES.myRecipeDetails}
       />
       <Route
         element={<FavoritesPage />}

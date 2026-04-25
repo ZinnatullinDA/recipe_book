@@ -1,9 +1,9 @@
-import type { RecipePreview } from '@/entities/recipe'
+import type { RecipeDetailsModel, RecipePreview } from '@/entities/recipe'
 import { RecipeCard } from '@/entities/recipe'
 import styles from './RecipesGrid.module.css'
 
 interface RecipesGridProps {
-  recipes: RecipePreview[]
+  recipes: Array<RecipePreview | RecipeDetailsModel>
 }
 
 export function RecipesGrid({ recipes }: RecipesGridProps) {

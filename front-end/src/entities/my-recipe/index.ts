@@ -1,5 +1,7 @@
 export { useMyRecipes } from './model/hooks/useMyRecipes'
 export { useMyRecipeStore } from './model/myRecipe.store'
 export type { MyRecipe, MyRecipeFormValues } from './model/types'
+export { myRecipeApi } from './api/myRecipeApi'
+export { mapMyRecipeToRecipeDetails } from './lib/mapMyRecipe'
 export { MyRecipeCard } from './ui/MyRecipeCard'
 export { MyRecipeDetails } from './ui/MyRecipeDetails'

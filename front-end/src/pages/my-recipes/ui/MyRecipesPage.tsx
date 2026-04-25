@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom'
-import { MyRecipeCard, MyRecipeDetails, useMyRecipes } from '@/entities/my-recipe'
-import { DeleteRecipeButton } from '@/features/delete-my-recipe'
+import { mapMyRecipeToRecipeDetails, useMyRecipes } from '@/entities/my-recipe'
 import { ROUTES } from '@/shared/constants/routes'
 import { EmptyState, ErrorMessage, Loader } from '@/shared/ui'
 import { PageLayout } from '@/widgets/page-layout'
+import { RecipesGrid } from '@/widgets/recipes-grid'
 import styles from './MyRecipesPage.module.css'
 
 export function MyRecipesPage() {
-  const { recipes, isLoading, error, deleteRecipe } = useMyRecipes()
-  const featuredRecipe = recipes[0]
+  const { recipes, isLoading, error } = useMyRecipes()
+  const cards = recipes.map(mapMyRecipeToRecipeDetails)
 
   return (
     <PageLayout
@@ -34,22 +34,8 @@ export function MyRecipesPage() {
           />
         )}
 
-        {!isLoading && !error && recipes.length > 0 && featuredRecipe && (
-          <MyRecipeDetails recipe={featuredRecipe} />
-        )}
-
         {!isLoading && !error && recipes.length > 0 && (
-          <div className={styles.cards}>
-            {recipes.map(recipe => (
-              <div
-                className={styles.cardItem}
-                key={recipe.id}
-              >
-                <MyRecipeCard recipe={recipe} />
-                <DeleteRecipeButton onClick={() => void deleteRecipe(recipe.id)} />
-              </div>
-            ))}
-          </div>
+          <RecipesGrid recipes={cards} />
         )}
       </div>
     </PageLayout>

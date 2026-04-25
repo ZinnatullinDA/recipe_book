@@ -4,6 +4,7 @@ export const ROUTES = {
   recipeDetails: '/recipes/:recipeId',
   randomRecipe: '/random-recipe',
   myRecipes: '/my-recipes',
+  myRecipeDetails: '/my-recipes/:id',
   myRecipeCreate: '/my-recipes/create',
   myRecipeEdit: '/my-recipes/:id/edit',
   favorites: '/favorites',

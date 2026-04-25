@@ -11,7 +11,7 @@ interface MyRecipeState {
   createRecipe: (data: MyRecipeFormValues) => Promise<MyRecipe | null>
   importRecipe: (recipe: RecipeDetails) => Promise<MyRecipe | null>
   updateRecipe: (id: string, data: MyRecipeFormValues) => Promise<MyRecipe | null>
-  deleteRecipe: (id: string) => Promise<void>
+  deleteRecipe: (id: string) => Promise<boolean>
 }
 
 export const useMyRecipeStore = create<MyRecipeState>(set => ({
@@ -77,9 +77,11 @@ export const useMyRecipeStore = create<MyRecipeState>(set => ({
       set(state => ({
         recipes: state.recipes.filter(recipe => recipe.id !== id),
       }))
+      return true
     }
     catch {
       set({ error: 'Не удалось удалить рецепт.' })
+      return false
     }
   },
 }))

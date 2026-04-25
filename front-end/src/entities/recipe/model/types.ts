@@ -42,6 +42,7 @@ export interface RecipeDetails {
   readyInMinutes: number
   servings: number
   summary: string
+  ingredients?: string
   instructions: string
   dishTypes: string[]
   diets: string[]

@@ -10,11 +10,14 @@ interface RecipeCardProps {
 }
 
 export function RecipeCard({ recipe }: RecipeCardProps) {
-  const detailsLink = (recipe as RecipeDetails).sourceType === 'ai'
+  const sourceType = (recipe as RecipeDetails).sourceType
+  const detailsLink = sourceType === 'ai'
     ? ROUTES.aiRecipeDetails.replace(':id', String(recipe.id))
-    : (recipe as RecipeDetails).sourceType
+    : sourceType === 'favorite'
         ? ROUTES.favoriteRecipeDetails.replace(':id', String(recipe.id))
-        : ROUTES.recipeDetails.replace(':recipeId', String(recipe.id))
+        : sourceType === 'my'
+            ? ROUTES.myRecipeDetails.replace(':id', String(recipe.id))
+            : ROUTES.recipeDetails.replace(':recipeId', String(recipe.id))
 
   const time = 'readyInMinutes' in recipe ? formatCookingTime(recipe.readyInMinutes) : null
 
