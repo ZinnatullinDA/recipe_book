@@ -1,0 +1,354 @@
+{
+  "myRecipes": [],
+  "favorites": [
+    {
+      "id": "7716c8a7-c717-45e5-91a2-f044bef3837d",
+      "sourceType": "spoonacular",
+      "sourceId": "659906",
+      "sourceKey": "spoonacular:659906",
+      "title": "Shrimp & Crab Egg Rolls",
+      "imageUrl": "https://img.spoonacular.com/recipes/659906-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "summary": "You can never have too many Chinese recipes, so give Shrimp & Crab Egg Rolls a try. For $2.58 per serving , you get a hor d'oeuvre that serves 6. One serving contains 313 calories , 16g of protein , and 4g of fat . This recipe is liked by 3 foodies and cooks. It is brought to you by Foodista. If you have shrimp, egg, vegetable oil, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately 45 minutes . It is a good option if you're following a dairy free and pescatarian diet. All things considered, we decided this recipe deserves a spoonacular score of 43% . This score is solid. Similar recipes include Shrimp and Crab Salad Rolls , Shrimp and Crab Salad Rolls , and Shrimp and Crab Salad Rolls .",
+      "instructions": "8 oz. bean sprouts, washed n patted dry 2 carrots, shredded or grated 1 lb imitation crab (or the real thing) 1/2 lb medium sized shrimp, shelled & deveined 2 garlic cloves, finely minced (1 tbsp garlic powder) 1 tsp brown sugar 2 green onions, finely chopped (green part only) 20 (6 or 8-inch) egg roll wrappers 1 beaten egg, for egg wash vegetable oil, for frying 1 tsp salt and ground pepper 1 cup sweet chili sauce",
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "diets": [
+        "dairy free",
+        "pescatarian"
+      ],
+      "cuisines": [
+        "Chinese",
+        "Asian"
+      ]
+    }
+  ],
+  "aiRecipes": [
+    {
+      "id": "7da82ca9-3350-41de-b064-b105885a3f2f",
+      "sourceType": "ai",
+      "sourceId": "1777121566099-1",
+      "sourceKey": "ai:1777121566099-1",
+      "title": "Куриные котлеты с овощами",
+      "imageUrl": "https://picsum.photos/seed/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D1%82%D0%BB%D0%B5%D1%82%D1%8B%20%D1%81%20%D0%BE%D0%B2%D0%BE%D1%89%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "summary": "Нежные куриные котлеты с добавлением овощей.",
+      "instructions": "1. Пюрировать курицу с измельченными овощами.\n2. Сформировать котлетки и обжарить до золотистой корочки.\n3. Готовить в духовке около 20 минут при температуре 180 градусов.",
+      "dishTypes": [
+        "второе блюдо"
+      ],
+      "diets": [
+        "безглютеновая",
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "русская"
+      ]
+    },
+    {
+      "id": "ad079ded-f632-4f5f-9178-d0fc14f04060",
+      "sourceType": "ai",
+      "sourceId": "1777121566100-2",
+      "sourceKey": "ai:1777121566100-2",
+      "title": "Паста с грибами и сливочным соусом",
+      "imageUrl": "https://picsum.photos/seed/%D0%9F%D0%B0%D1%81%D1%82%D0%B0%20%D1%81%20%D0%B3%D1%80%D0%B8%D0%B1%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D1%81%D0%BB%D0%B8%D0%B2%D0%BE%D1%87%D0%BD%D1%8B%D0%BC%20%D1%81%D0%BE%D1%83%D1%81%D0%BE%D0%BC/1200/800",
+      "readyInMinutes": 30,
+      "servings": 3,
+      "summary": "Классическая паста с ароматными грибами и нежным сливочным соусом.",
+      "instructions": "1. Отварить пасту согласно инструкции на упаковке.\n2. Обжарить грибы до золотистого цвета.\n3. Добавить сливки, соль, специи по вкусу и прогреть.\n4. Смешать пасту с соусом перед подачей.",
+      "dishTypes": [
+        "первое блюдо"
+      ],
+      "diets": [],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "b6e38806-7317-4b89-afa4-17d77ce3ed9f",
+      "sourceType": "ai",
+      "sourceId": "1777121566100-3",
+      "sourceKey": "ai:1777121566100-3",
+      "title": "Творожный пирог с ягодной начинкой",
+      "imageUrl": "https://picsum.photos/seed/%D0%A2%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B8%D1%80%D0%BE%D0%B3%20%D1%81%20%D1%8F%D0%B3%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%BE%D0%B9/1200/800",
+      "readyInMinutes": 60,
+      "servings": 6,
+      "summary": "Вкусный творожный пирог с освежающей ягодной начинкой.",
+      "instructions": "1. Присоединить творог, сахар, яйца и муку для теста.\n2. Подготовить ягоды (например, клубнику или малину).\n3. Выложить тесто в форму, сверху выложить ягоды и выпекать при 180 градусах около 40-45 минут.",
+      "dishTypes": [
+        "десерт"
+      ],
+      "diets": [
+        "вегетарианская"
+      ],
+      "cuisines": [
+        "домашняя"
+      ]
+    },
+    {
+      "id": "2d4cfdd2-6917-443b-8254-38635ecaee53",
+      "sourceType": "ai",
+      "sourceId": "1777120024950-1",
+      "sourceKey": "ai:1777120024950-1",
+      "title": "Курица в сливочном соусе",
+      "imageUrl": "https://picsum.photos/seed/%D0%9A%D1%83%D1%80%D0%B8%D1%86%D0%B0%20%D0%B2%20%D1%81%D0%BB%D0%B8%D0%B2%D0%BE%D1%87%D0%BD%D0%BE%D0%BC%20%D1%81%D0%BE%D1%83%D1%81%D0%B5/1200/800",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "summary": "Нежная куриная грудка в ароматном сливочном соусе.",
+      "instructions": "Нарезать куриное филе кубиками, обжарить до золотистого цвета. Добавить измельченный лук и чеснок, затем залить сливочным соусом, приправить по вкусу тушить еще 10 минут.",
+      "dishTypes": [
+        "второе блюдо"
+      ],
+      "diets": [
+        "безглютеновая диета",
+        "низкокалорийная диета"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "c0dedfde-4c2f-4f8c-bdbc-1873415c3358",
+      "sourceType": "ai",
+      "sourceId": "1777120024950-2",
+      "sourceKey": "ai:1777120024950-2",
+      "title": "Куриные котлеты с овощами",
+      "imageUrl": "https://picsum.photos/seed/%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D1%82%D0%BB%D0%B5%D1%82%D1%8B%20%D1%81%20%D0%BE%D0%B2%D0%BE%D1%89%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 30,
+      "servings": 6,
+      "summary": "Полезные и вкусные котлетки из куриного фарша с добавлением овощей.",
+      "instructions": "Смешать куриный фарш с тертой морковью, луком, яйцом и специями. Сформировать небольшие котлетки и запечь в духовке до готовности.",
+      "dishTypes": [
+        "основное блюдо"
+      ],
+      "diets": [
+        "вегетарианская диета",
+        "низкокалорийная диета"
+      ],
+      "cuisines": [
+        "русская"
+      ]
+    },
+    {
+      "id": "884539c2-8bb0-4668-8eb5-7fee09d80e96",
+      "sourceType": "ai",
+      "sourceId": "1777120024950-3",
+      "sourceKey": "ai:1777120024950-3",
+      "title": "Салат с копченой курицей и ананасами",
+      "imageUrl": "https://picsum.photos/seed/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BA%D0%BE%D0%BF%D1%87%D0%B5%D0%BD%D0%BE%D0%B9%20%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B5%D0%B9%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BD%D0%B0%D1%81%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "summary": "Легкий салат с сочными ингредиентами для освежающего перекуса или гарнира.",
+      "instructions": "Нарезать копченую курицу полосками, добавить нарезанные кубиками ананасы, листья салата и огурцы. Заправить оливковым маслом.",
+      "dishTypes": [
+        "салаты"
+      ],
+      "diets": [],
+      "cuisines": [
+        "азиатская"
+      ]
+    },
+    {
+      "id": "ea082093-e2d2-4d3d-98b0-72220dc20c89",
+      "sourceType": "ai",
+      "sourceId": "1777119999417-1",
+      "sourceKey": "ai:1777119999417-1",
+      "title": "Легкий салат с капустой и морковью",
+      "imageUrl": "https://picsum.photos/seed/%D0%9B%D0%B5%D0%B3%D0%BA%D0%B8%D0%B9%20%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9%20%D0%B8%20%D0%BC%D0%BE%D1%80%D0%BA%D0%BE%D0%B2%D1%8C%D1%8E/1200/800",
+      "readyInMinutes": 5,
+      "servings": 4,
+      "summary": "Свежий и хрустящий салат.",
+      "instructions": "1. Нарезать капусту тонкой соломкой.\n2. Натреть морковь на крупной терке.\n3. Смешать овощи, посолить по вкусу и слегка помять руками.\n4. Добавить немного лимонного сока и оливкового масла.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская",
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "русская"
+      ]
+    },
+    {
+      "id": "5320af47-33a7-434a-b038-7e10f9d03673",
+      "sourceType": "ai",
+      "sourceId": "1777119999418-2",
+      "sourceKey": "ai:1777119999418-2",
+      "title": "Салат из огурцов и помидоров",
+      "imageUrl": "https://picsum.photos/seed/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B8%D0%B7%20%D0%BE%D0%B3%D1%83%D1%80%D1%86%D0%BE%D0%B2%20%D0%B8%20%D0%BF%D0%BE%D0%BC%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2/1200/800",
+      "readyInMinutes": 10,
+      "servings": 3,
+      "summary": "Простой летний салат.",
+      "instructions": "1. Огурцы нарезать кружочками, помидоры - дольками.\n2. Смешать овощи в миске, добавить мелко нарезанный укроп или петрушку.\n3. Посолить, заправить оливковым маслом.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "6bd441a8-dbb2-449f-a020-ccf211b7bb40",
+      "sourceType": "ai",
+      "sourceId": "1777119999418-3",
+      "sourceKey": "ai:1777119999418-3",
+      "title": "Салат с авокадо и шпинатом",
+      "imageUrl": "https://picsum.photos/seed/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%B0%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE%20%D0%B8%20%D1%88%D0%BF%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D0%BC/1200/800",
+      "readyInMinutes": 7,
+      "servings": 2,
+      "summary": "Полезный и питательный салат.",
+      "instructions": "1. Шпинат промыть и обсушить.\n2. Авокадо очистить, нарезать кубиками.\n3. Собрать салат слоями: сначала листья шпината, затем авокадо, сбрызнуть соком лайма и оливковым маслом.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "вегетарианская",
+        "сыроедение"
+      ],
+      "cuisines": [
+        "американская"
+      ]
+    },
+    {
+      "id": "8f5f90b8-5de4-4722-81f9-8182d23382f5",
+      "sourceType": "ai",
+      "sourceId": "1777119732823-1",
+      "sourceKey": "ai:1777119732823-1",
+      "title": "Салат с курицей и овощами",
+      "imageUrl": "https://picsum.photos/seed/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B5%D0%B9%20%D0%B8%20%D0%BE%D0%B2%D0%BE%D1%89%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "summary": "Легкий салат с куриной грудкой, свежими огурцами и помидорами.",
+      "instructions": "Отварите филе курицы до готовности, остудите и нарежьте кубиками. Добавьте нарезанные свежие огурцы и помидоры, заправьте оливковым маслом.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "безглютеновая",
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "52030e12-8ffb-40f8-8308-c22a88dd988d",
+      "sourceType": "ai",
+      "sourceId": "1777119732823-2",
+      "sourceKey": "ai:1777119732823-2",
+      "title": "Овощное рагу с грибами",
+      "imageUrl": "https://picsum.photos/seed/%D0%9E%D0%B2%D0%BE%D1%89%D0%BD%D0%BE%D0%B5%20%D1%80%D0%B0%D0%B3%D1%83%20%D1%81%20%D0%B3%D1%80%D0%B8%D0%B1%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "summary": "Нежное и ароматное блюдо из овощей и грибов.",
+      "instructions": "Обжарьте лук и морковь до мягкости, добавьте нарезанные грибы и тушите несколько минут. Затем положите нарезанный картофель и другие овощи по вкусу, посолите, поперчите и готовьте до готовности овощей.",
+      "dishTypes": [
+        "основное блюдо"
+      ],
+      "diets": [
+        "вегетарианская"
+      ],
+      "cuisines": [
+        "русская"
+      ]
+    },
+    {
+      "id": "176021b4-a475-43f8-859f-fa06919e1505",
+      "sourceType": "ai",
+      "sourceId": "1777119732823-3",
+      "sourceKey": "ai:1777119732823-3",
+      "title": "Творожный десерт с ягодами",
+      "imageUrl": "https://picsum.photos/seed/%D0%A2%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82%20%D1%81%20%D1%8F%D0%B3%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "summary": "Легкий и полезный десерт из творога и свежих ягод.",
+      "instructions": "Протрите творог через сито или измельчите в блендере. Добавьте сахар по вкусу и взбитые сливки аккуратно перемешайте. Заполните формочки для десерта смесью творога сверху выложите свежие ягоды.",
+      "dishTypes": [
+        "десерт"
+      ],
+      "diets": [
+        "низкокалорийная",
+        "сыроедение"
+      ],
+      "cuisines": [
+        "домашняя"
+      ]
+    },
+    {
+      "id": "9a0a5bfe-bfca-4228-9676-4d5d0ccf235a",
+      "sourceType": "ai",
+      "sourceId": "1777119610235-1",
+      "sourceKey": "ai:1777119610235-1",
+      "title": "Гречка с грибами",
+      "imageUrl": "https://picsum.photos/seed/%D0%93%D1%80%D0%B5%D1%87%D0%BA%D0%B0%20%D1%81%20%D0%B3%D1%80%D0%B8%D0%B1%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "summary": "Классическое блюдо русской кухни.",
+      "instructions": "Отварите гречку отдельно, обжарьте грибы с луком до готовности, смешайте ингредиенты перед подачей.",
+      "dishTypes": [
+        "второе"
+      ],
+      "diets": [
+        "безглютеновая",
+        "вегетарианская"
+      ],
+      "cuisines": [
+        "русская"
+      ]
+    },
+    {
+      "id": "a2f20cd6-321e-4640-af88-4f2c464bd17b",
+      "sourceType": "ai",
+      "sourceId": "1777119610236-2",
+      "sourceKey": "ai:1777119610236-2",
+      "title": "Омлет с овощами",
+      "imageUrl": "https://picsum.photos/seed/%D0%9E%D0%BC%D0%BB%D0%B5%D1%82%20%D1%81%20%D0%BE%D0%B2%D0%BE%D1%89%D0%B0%D0%BC%D0%B8/1200/800",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "summary": "Легкий завтрак или ужин.",
+      "instructions": "Взбейте яйца, добавьте нарезанные овощи (помидоры, болгарский перец), жарьте на сковороде под крышкой.",
+      "dishTypes": [
+        "завтрак"
+      ],
+      "diets": [
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "европейская"
+      ]
+    },
+    {
+      "id": "55bb3dba-f455-4113-b0b4-fbe69a1e0828",
+      "sourceType": "ai",
+      "sourceId": "1777119610236-3",
+      "sourceKey": "ai:1777119610236-3",
+      "title": "Салат с тунцом и кукурузой",
+      "imageUrl": "https://picsum.photos/seed/%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%20%D1%81%20%D1%82%D1%83%D0%BD%D1%86%D0%BE%D0%BC%20%D0%B8%20%D0%BA%D1%83%D0%BA%D1%83%D1%80%D1%83%D0%B7%D0%BE%D0%B9/1200/800",
+      "readyInMinutes": 10,
+      "servings": 3,
+      "summary": "Простой и вкусный салат для перекуса.",
+      "instructions": "Смешайте консервированный тунец, кукурузу, зелень, заправьте оливковым маслом.",
+      "dishTypes": [
+        "салат"
+      ],
+      "diets": [
+        "низкокалорийная"
+      ],
+      "cuisines": [
+        "общая"
+      ]
+    }
+  ]
+}
