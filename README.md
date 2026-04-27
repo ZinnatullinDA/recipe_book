@@ -98,7 +98,7 @@ recipe_book_react_app/
 │   │   └── server.js
 │   ├── db.json
 │   └── package.json
-└── PROJECT_DESCRIPTION.md
+└── README.md
 ```
 
 ### Front-end
