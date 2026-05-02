@@ -80,7 +80,7 @@ export function PageLayout() {
               Recipe Book
             </strong>
             <p>
-              Книга рецептов с внешним API и своим CRUD
+              Книга рецептов
             </p>
           </div>
         </div>
@@ -95,9 +95,9 @@ export function PageLayout() {
               <span>
                 {item.label}
               </span>
-              <small>
+              {/* <small>
                 {item.description}
-              </small>
+              </small> */}
             </NavLink>
           ))}
         </nav>

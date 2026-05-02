@@ -1,5 +1,5 @@
-import type { RecipeDetailsModel } from '@/entities/recipe'
 import type { FavoriteRecipe } from './types'
+import type { RecipeDetailsModel } from '@/entities/recipe'
 import { create } from 'zustand'
 import { favoriteRecipeApi } from '../api/favoriteRecipeApi'
 
@@ -34,7 +34,7 @@ export const useFavoriteRecipeStore = create<FavoriteRecipeState>(set => ({
   addRecipe: async (recipe) => {
     try {
       const createdRecipe = await favoriteRecipeApi.addFavorite(recipe)
-      set(state => {
+      set((state) => {
         const existingRecipe = state.recipes.find(item => item.sourceKey === createdRecipe.sourceKey)
 
         return {
